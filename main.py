@@ -103,7 +103,7 @@ async def extract_links_from_nuxt_data(soup: BeautifulSoup) -> list:
                         # 1. Harus link HTTP/HTTPS
                         # 2. Harus domain 'gamercdn.top' atau 'willcheat'
                         # 3. WAJIB mengandung path '/download/'
-                        if "http" in item and ("gamercdn.top" in item or "cfdownload.willcheat.com" in item) and "/download/" in item:
+                        if "http" in item and ("download.gamercdn.top" in item or "cfdownload.willcheat.com" in item) and "/download/" in item:
                             links.append(item)
     except Exception as e:
         print(f"Error extracting Nuxt data: {e}")

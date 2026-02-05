@@ -30,7 +30,7 @@ To mitigate direct IP blocking and handle potential geo-restrictions, all outgoi
 
 ### 2. Nuxt.js Hydration Parsing
 
-Modern web applications often load data dynamically using JavaScript frameworks. This scraper detects when standard HTML parsing fails to find download buttons. It then parses the `script#__NUXT_DATA__` tag—a JSON object used by Nuxt.js for client-side hydration. The script filters this JSON specifically for known content delivery networks (e.g., `gamercdn.top`, `willcheat`) to locate the final download links.
+Modern web applications often load data dynamically using JavaScript frameworks. This scraper detects when standard HTML parsing fails to find download buttons. It then parses the `script#__NUXT_DATA__` tag—a JSON object used by Nuxt.js for client-side hydration. The script filters this JSON specifically for known content delivery networks (e.g., `download.gamercdn.top`, `cfdownload.willcheat.com`) to locate the final download links.
 
 ### 3. Recursive Link Resolution
 

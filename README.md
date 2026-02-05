@@ -50,7 +50,7 @@ The scraping process follows a multi-step resolution path:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/gamekillerapp-scraper.git
+   git clone https://github.com/SaptaZ/GameKillerApp-Scraper-API.git
    cd gamekillerapp-scraper
    ```
 

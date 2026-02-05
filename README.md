@@ -51,7 +51,7 @@ The scraping process follows a multi-step resolution path:
 
    ```bash
    git clone https://github.com/SaptaZ/GameKillerApp-Scraper-API.git
-   cd gamekillerapp-scraper-api
+   cd GameKillerApp-Scraper-API
    ```
 
 2. **Create a Virtual Environment (Recommended)**

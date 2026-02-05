@@ -182,6 +182,7 @@ async def process_item_fully(name, detail_url, image, initial_size):
 async def root():
     return {
         "message": "Search API for GameKillerApp.com by Bowo",
+        "github": "https://github.com/SaptaZ"
         "example_usage": "/search?query=minecraft&limit=5"
     }
 
